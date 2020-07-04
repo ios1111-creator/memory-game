@@ -16,6 +16,9 @@
 		66576DBF24B1164F00FCBCAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66576DBD24B1164F00FCBCAC /* LaunchScreen.storyboard */; };
 		66576DCA24B1164F00FCBCAC /* Memory_game_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66576DC924B1164F00FCBCAC /* Memory_game_Tests.swift */; };
 		66576DD524B1164F00FCBCAC /* Memory_game_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66576DD424B1164F00FCBCAC /* Memory_game_UITests.swift */; };
+		6690C94024B11F49009114CC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690C93F24B11F49009114CC /* Card.swift */; };
+		6690C94224B12038009114CC /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690C94124B12038009114CC /* CardCollectionViewCell.swift */; };
+		6690C94424B12065009114CC /* CardModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690C94324B12065009114CC /* CardModule.swift */; };
 		66E2884124B11BBD00A33285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E2884024B11BBD00A33285 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,9 @@
 		66576DD024B1164F00FCBCAC /* Memory-game-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory-game-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66576DD424B1164F00FCBCAC /* Memory_game_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory_game_UITests.swift; sourceTree = "<group>"; };
 		66576DD624B1164F00FCBCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6690C93F24B11F49009114CC /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = ../../../Card.swift; sourceTree = "<group>"; };
+		6690C94124B12038009114CC /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		6690C94324B12065009114CC /* CardModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModule.swift; sourceTree = "<group>"; };
 		66E2884024B11BBD00A33285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +109,7 @@
 		66576DAD24B1163800FCBCAC /* Memory-game- */ = {
 			isa = PBXGroup;
 			children = (
+				6690C93F24B11F49009114CC /* Card.swift */,
 				66E2884024B11BBD00A33285 /* Assets.xcassets */,
 				66576DAE24B1163900FCBCAC /* AppDelegate.swift */,
 				66576DB024B1163900FCBCAC /* GameScene.sks */,
@@ -112,6 +119,8 @@
 				66576DB824B1163900FCBCAC /* Main.storyboard */,
 				66576DBD24B1164F00FCBCAC /* LaunchScreen.storyboard */,
 				66576DC024B1164F00FCBCAC /* Info.plist */,
+				6690C94124B12038009114CC /* CardCollectionViewCell.swift */,
+				6690C94324B12065009114CC /* CardModule.swift */,
 			);
 			path = "Memory-game-";
 			sourceTree = "<group>";
@@ -268,8 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				66576DB524B1163900FCBCAC /* SceneDelege.swift in Sources */,
+				6690C94424B12065009114CC /* CardModule.swift in Sources */,
 				66576DB724B1163900FCBCAC /* ViewController.swift in Sources */,
 				66576DAF24B1163900FCBCAC /* AppDelegate.swift in Sources */,
+				6690C94224B12038009114CC /* CardCollectionViewCell.swift in Sources */,
+				6690C94024B11F49009114CC /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
