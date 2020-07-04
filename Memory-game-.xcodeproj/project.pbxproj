@@ -10,8 +10,8 @@
 		66576DAF24B1163900FCBCAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66576DAE24B1163900FCBCAC /* AppDelegate.swift */; };
 		66576DB124B1163900FCBCAC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 66576DB024B1163900FCBCAC /* GameScene.sks */; };
 		66576DB324B1163900FCBCAC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 66576DB224B1163900FCBCAC /* Actions.sks */; };
-		66576DB524B1163900FCBCAC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66576DB424B1163900FCBCAC /* GameScene.swift */; };
-		66576DB724B1163900FCBCAC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66576DB624B1163900FCBCAC /* GameViewController.swift */; };
+		66576DB524B1163900FCBCAC /* SceneDelege.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66576DB424B1163900FCBCAC /* SceneDelege.swift */; };
+		66576DB724B1163900FCBCAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66576DB624B1163900FCBCAC /* ViewController.swift */; };
 		66576DBA24B1163900FCBCAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66576DB824B1163900FCBCAC /* Main.storyboard */; };
 		66576DBC24B1164F00FCBCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66576DBB24B1164F00FCBCAC /* Assets.xcassets */; };
 		66576DBF24B1164F00FCBCAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66576DBD24B1164F00FCBCAC /* LaunchScreen.storyboard */; };
@@ -41,8 +41,8 @@
 		66576DAE24B1163900FCBCAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66576DB024B1163900FCBCAC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		66576DB224B1163900FCBCAC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		66576DB424B1163900FCBCAC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		66576DB624B1163900FCBCAC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		66576DB424B1163900FCBCAC /* SceneDelege.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelege.swift; sourceTree = "<group>"; };
+		66576DB624B1163900FCBCAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66576DB924B1163900FCBCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66576DBB24B1164F00FCBCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66576DBE24B1164F00FCBCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 				66576DAE24B1163900FCBCAC /* AppDelegate.swift */,
 				66576DB024B1163900FCBCAC /* GameScene.sks */,
 				66576DB224B1163900FCBCAC /* Actions.sks */,
-				66576DB424B1163900FCBCAC /* GameScene.swift */,
-				66576DB624B1163900FCBCAC /* GameViewController.swift */,
+				66576DB424B1163900FCBCAC /* SceneDelege.swift */,
+				66576DB624B1163900FCBCAC /* ViewController.swift */,
 				66576DB824B1163900FCBCAC /* Main.storyboard */,
 				66576DBB24B1164F00FCBCAC /* Assets.xcassets */,
 				66576DBD24B1164F00FCBCAC /* LaunchScreen.storyboard */,
@@ -267,8 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66576DB524B1163900FCBCAC /* GameScene.swift in Sources */,
-				66576DB724B1163900FCBCAC /* GameViewController.swift in Sources */,
+				66576DB524B1163900FCBCAC /* SceneDelege.swift in Sources */,
+				66576DB724B1163900FCBCAC /* ViewController.swift in Sources */,
 				66576DAF24B1163900FCBCAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
