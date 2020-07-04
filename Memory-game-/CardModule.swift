@@ -17,7 +17,7 @@ class CardModule{
       
         var generatedCardArray = [Card]()
         
-        while generatedNumbersArray.count < 8 {
+        while generatedNumbersArray.count < 10 {
             //get a random number
           
             let randomNumber = arc4random_uniform(13) + 1

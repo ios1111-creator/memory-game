@@ -6,16 +6,14 @@
 //  Copyright © 2020 Adam, Krystian. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class CardCollectionViewCell: UICollectionViewCell {
 
-    
+
     @IBOutlet weak var frontImageView: UIImageView!
     
     @IBOutlet weak var backImageView: UIImageView!
-    
     
     var card:Card?
     
